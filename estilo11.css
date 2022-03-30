@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    background: black;
+    font-family: monospace;
+}
+
+.header{
+    border-bottom: 3px solid aqua;
+    }
+
+.header ul #aqui{
+    font-weight: 800;
+    color: blue;
+}
+
+
+ .container {
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: aqua;
+    
+    width: fit-content;
+}
+
+.barra{
+    color: orange;
+    list-style: none;
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    padding: 0;
+    align-items: center;
+}
+
+.banner {
+    background-image: url("1CCO/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: rgb(247, 241, 241);
+    display: flex;
+    
+}
+
+.banner .container p span{
+    font-weight: 1000;
+}
+
+.banner .container {
+    font-size: 36px;
+    justify-content: center;
+}
+.banner .container p{
+    width: 10%;
+    
+}
+
+/* Fim do Banner */
+
+/* começo d social */
+
+.social{
+    background-color: beige;
+    display: flex;
+}
+
+.social .container .boxes .box img{
+    width: 170px;
+
+}
+
+.social .container .boxes {
+    display: flex;
+}
+
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* final da social*/
+
+/* começo do footer*/
+
+.footer{
+    background-color: rgb(4, 253, 253);
+    height: 150px;
+    color: #fff;
+    display: flex;
+
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+a {
+    color:orange;
+    text-decoration: none;
+}
+
+.banner .container .card{
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+}
+
+.card h1{
+    font-size: 30px;
+
+}
+
+.card h4{
+    font-size: 16px;
+}
+
+.card input{
+    border: palevioletred solid 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+.card button{
+    width: 100px;
+    height: 30px;
+    background-color: palevioletred;
+    margin-top: 25px;
+    font: 700 20px monospace;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    
+}
